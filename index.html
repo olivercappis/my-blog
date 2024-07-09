@@ -4,15 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>my first blog</title>
     <link rel="stylesheet" href="./assets/css/form.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 
 <body>
-    <header>
+    <header class="light">
         <button id="lightMode">☀️</button>
     </header>
-    <div class="content">
+    <div class="content light">
         <section class="left">
             <div id="circle">
                 <h1>My first blog</h1>
@@ -24,15 +25,17 @@
                 <h2>What's on your mind</h2>
                 <form action="">
                     <p>Username</p>
-                    <input type="text">
+                    <input type="text" id="username">
                     <p>Title</p>
-                    <input type="text">
+                    <input type="text" id="title">
                     <p>Content</p>
                     <input type="text" id="content">
                     <button type="submit" id="submit"> Submit</button>
                 </form>
             </div>
         </section>
+        <script src="./assets/js/form.js"></script>
+        <script src="./assets/js/logic.js"></script>
     </div>
 
 </body>
