@@ -1,0 +1,48 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-bottom: 5px solid black;
+    margin-bottom: 5px;
+}
+
+#left {
+    display: flex;
+    align-items: center;
+
+}
+
+footer {
+    border-top: 5px solid black;
+    margin-top: 5px;
+    height: min-content;
+}
+
+.main {
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    padding: 5px;
+}
+
+.post {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 8px;
+}
+
+h3 {
+    margin-top: 8px;
+    margin-left: 4px;
+    margin-bottom: 4px;
+}
+
+.content {
+    margin-top: 2px;
+    margin-left: 8px;
+}
+
+.username {
+    margin-bottom: 3px;
+    font-style: italic;
+    font-size: 95%;
+}
